@@ -1,5 +1,5 @@
 provider "google" {
-  region      = "us-central1"
-  zone        = "us-central1-c"
-  project = "sylvan-cirrus-398113"
+  region      = "europe-central2"
+  zone        = "europe-central2-a"
+  project = "lewandowskig-terraform-admin"
 }
