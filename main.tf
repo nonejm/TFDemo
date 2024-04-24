@@ -5,7 +5,7 @@ resource "google_storage_bucket" "static" {
   name          = "${random_id.bucket_prefix.hex}-new-bucket"
   location      = "US"
   storage_class = "STANDARD"
-  project = "lewandowskig-terraform-admin"
+  project = "sylvan-cirrus-398113"
 
 
   uniform_bucket_level_access = true
